@@ -1,0 +1,24 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HTS221TR
+D Capacitive digital sensor for relative humidity and temperature
+$ENDCMP
+#
+$CMP LIS3MDLTR
+D Digital output magnetic sensor ultra-low-power, high-performance 3-axis magnetometer
+$ENDCMP
+#
+$CMP LPS22HBTR
+D MEMS nano pressure sensor: 260-1260 hPa absolute digital output barometer
+$ENDCMP
+#
+$CMP LSM6DSLTR
+D Always-on 3D accelerometer and 3D gyroscope
+$ENDCMP
+#
+$CMP MP34DT01TR-M
+D MEMS audio sensor omnidirectional digital microphone - HCLGA
+K MEMS Microphone
+$ENDCMP
+#
+#End Doc Library

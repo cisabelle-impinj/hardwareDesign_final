@@ -1,0 +1,24 @@
+ERC report (9/9/2019 8:26:06 PM, Encoding UTF8 )
+
+***** Sheet /
+
+***** Sheet /P2_Microcontroller/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(6.200 in, 0.900 in): Pin 22 (Power input) of component U1 is not driven (Net 32).
+
+***** Sheet /P3_Sensors/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(2.400 in, 1.350 in): Pin 4 (Power input) of component U3 is not driven (Net 35).
+
+***** Sheet /P4_RF_Modules/
+
+***** Sheet /P5_ARD_Connectors/
+
+***** Sheet /P6_Mix/
+ErrType(5): Conflict problem between pins. Severity: error
+    @(4.750 in, 6.450 in): Pin 6 (Output) of component U13 is connected to 
+    @(4.750 in, 6.550 in): pin 7 (Output) of component U13 (net 140).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(3.650 in, 4.650 in): Pin 1 (Power input) of component U11 is not driven (Net 142).
+
+ ** ERC messages: 4  Errors 1  Warnings 3

@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# SPSGRF-915
+#
+DEF SPSGRF-915 U? 0 40 Y Y 1 L N
+F0 "U?" -481 531 50 H V L BNN
+F1 "SPSGRF-915" -250 -800 50 H V L BNN
+F2 "XCVR_SPSGRF-915" 0 0 50 H I L BNN
+F3 "SPSGRF-915" 0 0 50 H I L BNN
+F4 "497-15956-ND" 0 0 50 H I L BNN
+F5 "STMicroelectronics" 0 0 50 H I L BNN
+F6 "Module STMicroelectronics" 0 0 50 H I L BNN
+F7 "https://www.digikey.com/product-detail/en/stmicroelectronics/SPSGRF-915/497-15956-ND/5400222?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F8 "Sub-GHz _868 or 915 MHz_ low power programmable RF transceiver modules" 0 0 50 H I L BNN
+DRAW
+P 5 1 1 10 -500 500 -500 -700 500 -700 500 500 -500 500 f
+X GPIO[3] 1 -700 -400 200 R 40 40 0 0 B
+X SPI_CS 10 -700 400 200 R 40 40 0 0 I
+X SDN 11 -700 -600 200 R 40 40 0 0 I
+X GPIO[2] 2 -700 -300 200 R 40 40 0 0 B
+X GPIO[1] 3 -700 -200 200 R 40 40 0 0 B
+X GPIO[0] 4 -700 -100 200 R 40 40 0 0 B
+X VIN 5 700 400 200 L 40 40 0 0 W
+X GND 6 700 -550 200 L 40 40 0 0 W
+X SPI_CLK 7 -700 300 200 R 40 40 0 0 I
+X SPI_MISO 8 -700 100 200 R 40 40 0 0 O
+X SPI_MOSI 9 -700 200 200 R 40 40 0 0 I
+ENDDRAW
+ENDDEF
+#
+#End Library

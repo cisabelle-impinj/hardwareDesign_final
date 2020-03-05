@@ -1,0 +1,71 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+LGA6R75P3X2_200X200X90
+$EndINDEX
+$MODULE LGA6R75P3X2_200X200X90
+Po 0 0 0 15 00000000 00000000 ~~
+Li LGA6R75P3X2_200X200X90
+Cd 
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 -0.492692 -1.62929 0.200283 0.200283 0 0.05 N V 21 "LGA6R75P3X2_200X200X90"
+T1 -0.363795 1.63994 0.200521 0.200521 0 0.05 N V 21 "VAL**"
+DS -1 -1 -1 1 0.05 27
+DS -1 1 1 1 0.05 27
+DS 1 1 1 -1 0.05 27
+DS 1 -1 -1 -1 0.05 27
+DC 0.9 -0.75 0.95 -0.75 0 27
+$PAD
+Sh "1" R 0.4 0.45 0 0 2700
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.5 -0.75
+$EndPAD
+$PAD
+Sh "2" R 0.4 0.45 0 0 2700
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.5 -0.75
+$EndPAD
+$PAD
+Sh "5" R 0.4 0.45 0 0 2700
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.5 0.75
+$EndPAD
+$PAD
+Sh "4" R 0.4 0.45 0 0 2700
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.5 0.75
+$EndPAD
+$PAD
+Sh "6" R 0.4 0.45 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.75 0
+$EndPAD
+$PAD
+Sh "3" R 0.4 0.45 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.75 0
+$EndPAD
+$EndMODULE LGA6R75P3X2_200X200X90

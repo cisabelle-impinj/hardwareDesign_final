@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name ST890CDR)(type Legacy)(uri ${KIPRJMOD}/ST890CDR.mod)(options "")(descr ""))
+  (lib (name NX3225SA-16.000M-STD-CRS-2)(type Legacy)(uri ${KIPRJMOD}/NX3225SA-16.000M-STD-CRS-2.mod)(options "")(descr ""))
+  (lib (name MyFpLib)(type KiCad)(uri ${KIPRJMOD}/MyFpLib.pretty)(options "")(descr ""))
+)

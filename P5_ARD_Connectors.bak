@@ -1,0 +1,301 @@
+EESchema Schematic File Version 4
+LIBS:ESHD_EmbeddedSystem01-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 6
+Title "Connector Interface Section"
+Date "09/08/2019"
+Rev "1.0"
+Comp ""
+Comment1 "Chris Isabelle"
+Comment2 "Section ID: 141008"
+Comment3 "Course Number: ECE-40292"
+Comment4 "Embedded Systems Hardware Design"
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x10 CN4
+U 1 1 5D50EF41
+P 6400 4700
+F 0 "CN4" H 6300 4100 50  0000 L CNN
+F 1 "Conn_01x10" H 6000 5200 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical_SMD_Pin1Right" H 6400 4700 50  0001 C CNN
+F 3 "~" H 6400 4700 50  0001 C CNN
+	1    6400 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 CN3
+U 1 1 5D50E433
+P 6400 2300
+F 0 "CN3" H 6300 1800 50  0000 L CNN
+F 1 "Conn_01x08" H 6000 2700 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical_SMD_Pin1Right" H 6400 2300 50  0001 C CNN
+F 3 "~" H 6400 2300 50  0001 C CNN
+	1    6400 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 CN1
+U 1 1 5D50D38B
+P 4350 2200
+F 0 "CN1" H 4300 2600 50  0000 L CNN
+F 1 "Conn_01x08" H 4300 1700 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical_SMD_Pin1Right" H 4350 2200 50  0001 C CNN
+F 3 "~" H 4350 2200 50  0001 C CNN
+	1    4350 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 CN2
+U 1 1 5D50F987
+P 4350 4400
+F 0 "CN2" H 4300 4700 50  0000 L CNN
+F 1 "Conn_01x06" H 4300 4000 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Right" H 4350 4400 50  0001 C CNN
+F 3 "~" H 4350 4400 50  0001 C CNN
+	1    4350 4400
+	1    0    0    -1  
+$EndComp
+Text GLabel 3850 4600 0    50   Output ~ 0
+ARD.A4-ADC
+Text GLabel 3850 4500 0    50   Output ~ 0
+ARD.A3-ADC
+Text GLabel 3850 4400 0    50   Output ~ 0
+ARD.A2-ADC
+Text GLabel 3850 4300 0    50   Output ~ 0
+ARD.A1-ADC
+Text GLabel 3850 4200 0    50   Output ~ 0
+ARD.A0-ADC
+Text GLabel 3850 4700 0    50   Output ~ 0
+ARD.A5-ADC
+Text GLabel 6950 4800 2    50   Input ~ 0
+ARD.D11-SPI1_MOSI_PWM
+Text GLabel 6950 4600 2    50   Input ~ 0
+ARD.D13-SPI1_SCK_LED1
+Text GLabel 6950 4900 2    50   Input ~ 0
+ARD.D10-SPI_SSN_PWM
+Text GLabel 6950 4300 2    50   BiDi ~ 0
+ARD.D14-I2C1_SDA
+Text GLabel 6950 4200 2    50   Input ~ 0
+ARD.D15-I2C1_SCL
+Text GLabel 6950 2100 2    50   BiDi ~ 0
+ARD.D5-PWM
+Text GLabel 6950 5100 2    50   BiDi ~ 0
+ARD.D8
+Text GLabel 6950 2000 2    50   BiDi ~ 0
+ARD.D6-PWM
+Text GLabel 6950 2300 2    50   BiDi ~ 0
+ARD.D3-PWM_INT1_EXTI0
+Text GLabel 6950 5000 2    50   BiDi ~ 0
+ARD.D9-PWM
+Text GLabel 6950 4700 2    50   Output ~ 0
+ARD.D12-SPI1_MISO
+Text GLabel 6950 1900 2    50   BiDi ~ 0
+ARD.D7
+Text GLabel 6950 2200 2    50   BiDi ~ 0
+ARD.D4
+Text GLabel 6950 2600 2    50   Output ~ 0
+ARD.D0-UART4_RX
+Text GLabel 6950 2500 2    50   Input ~ 0
+ARD.D1-UART4_TX
+Text GLabel 6950 2400 2    50   BiDi ~ 0
+ARD.D2-INT0_EXTI14
+Wire Wire Line
+	6600 1900 6950 1900
+Wire Wire Line
+	6950 2000 6600 2000
+Wire Wire Line
+	6600 2100 6950 2100
+Wire Wire Line
+	6950 2200 6600 2200
+Wire Wire Line
+	6600 2300 6950 2300
+Wire Wire Line
+	6950 2400 6600 2400
+Wire Wire Line
+	6600 2500 6950 2500
+Wire Wire Line
+	6950 2600 6600 2600
+Wire Wire Line
+	6600 4200 6950 4200
+Wire Wire Line
+	6950 4300 6600 4300
+Wire Wire Line
+	6600 4600 6950 4600
+Wire Wire Line
+	6950 4700 6600 4700
+Wire Wire Line
+	6600 4800 6950 4800
+Wire Wire Line
+	6950 4900 6600 4900
+Wire Wire Line
+	6600 5000 6950 5000
+Wire Wire Line
+	6950 5100 6600 5100
+Wire Wire Line
+	3850 4200 4150 4200
+Wire Wire Line
+	4150 4300 3850 4300
+Wire Wire Line
+	3850 4400 4150 4400
+Wire Wire Line
+	4150 4500 3850 4500
+Wire Wire Line
+	3850 4600 4150 4600
+Wire Wire Line
+	4150 4700 3850 4700
+$Comp
+L power:GND #PWR062
+U 1 1 5D51FAE1
+P 8550 5250
+F 0 "#PWR062" H 8550 5000 50  0001 C CNN
+F 1 "GND" H 8555 5077 50  0000 C CNN
+F 2 "" H 8550 5250 50  0001 C CNN
+F 3 "" H 8550 5250 50  0001 C CNN
+	1    8550 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR059
+U 1 1 5D51FC1E
+P 2650 2700
+F 0 "#PWR059" H 2650 2450 50  0001 C CNN
+F 1 "GND" H 2655 2527 50  0000 C CNN
+F 2 "" H 2650 2700 50  0001 C CNN
+F 3 "" H 2650 2700 50  0001 C CNN
+	1    2650 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR061
+U 1 1 5D51FD49
+P 6950 4500
+F 0 "#PWR061" H 6950 4250 50  0001 C CNN
+F 1 "GND" V 6955 4372 50  0000 R CNN
+F 2 "" H 6950 4500 50  0001 C CNN
+F 3 "" H 6950 4500 50  0001 C CNN
+	1    6950 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C37
+U 1 1 5D52101C
+P 8550 4900
+F 0 "C37" H 8665 4946 50  0000 L CNN
+F 1 "100nF" H 8665 4855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8588 4750 50  0001 C CNN
+F 3 "~" H 8550 4900 50  0001 C CNN
+	1    8550 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5D5222F3
+P 8150 4400
+F 0 "R14" V 8250 4400 50  0000 C CNN
+F 1 "0" V 8050 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8080 4400 50  0001 C CNN
+F 3 "~" H 8150 4400 50  0001 C CNN
+	1    8150 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 4500 6950 4500
+Wire Wire Line
+	6600 4400 8000 4400
+Wire Wire Line
+	8300 4400 8550 4400
+Wire Wire Line
+	8550 4400 8550 3850
+Wire Wire Line
+	8550 4750 8550 4400
+Wire Wire Line
+	8550 5050 8550 5250
+Wire Wire Line
+	2850 2500 2850 2400
+$Comp
+L Device:R R13
+U 1 1 5D5279B1
+P 3950 1900
+F 0 "R13" V 4050 2000 50  0000 C CNN
+F 1 "1k" V 4050 1800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3880 1900 50  0001 C CNN
+F 3 "~" H 3950 1900 50  0001 C CNN
+	1    3950 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR060
+U 1 1 5D528031
+P 2850 1550
+F 0 "#PWR060" H 2850 1400 50  0001 C CNN
+F 1 "+3V3" H 2865 1723 50  0000 C CNN
+F 2 "" H 2850 1550 50  0001 C CNN
+F 3 "" H 2850 1550 50  0001 C CNN
+	1    2850 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 2500 2650 2700
+Wire Wire Line
+	4150 2200 3950 2200
+Wire Wire Line
+	2850 1550 2850 2200
+Wire Wire Line
+	4150 2000 3950 2000
+Wire Wire Line
+	3950 2000 3950 2200
+Connection ~ 3950 2200
+Wire Wire Line
+	3950 2200 2850 2200
+Text GLabel 3450 2100 0    50   BiDi ~ 0
+STM_NRST
+Wire Wire Line
+	3450 2100 4150 2100
+Wire Wire Line
+	2850 2400 4150 2400
+Wire Wire Line
+	2650 2500 2850 2500
+Wire Wire Line
+	4100 1900 4150 1900
+Wire Wire Line
+	3450 1900 3800 1900
+Text Notes 3600 3500 0    150  ~ 30
+Arduino Uno connector interface
+Connection ~ 8550 4400
+NoConn ~ 3450 1900
+Wire Wire Line
+	3450 2600 4150 2600
+$Comp
+L power:+5V #PWR058
+U 1 1 5DC39F2C
+P 2650 1550
+F 0 "#PWR058" H 2650 1400 50  0001 C CNN
+F 1 "+5V" H 2665 1723 50  0000 C CNN
+F 2 "" H 2650 1550 50  0001 C CNN
+F 3 "" H 2650 1550 50  0001 C CNN
+	1    2650 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 2300 2650 1550
+Wire Wire Line
+	2650 2300 4150 2300
+NoConn ~ 3450 2600
+Connection ~ 2850 2500
+Wire Wire Line
+	2850 2500 4150 2500
+Connection ~ 4150 2300
+Wire Wire Line
+	4150 2300 4350 2300
+Connection ~ 4150 2400
+Wire Wire Line
+	4150 2400 4350 2400
+NoConn ~ 3000 3200
+Text GLabel 8850 3850 2    50   Input ~ 0
+3V3_FITERED
+Wire Wire Line
+	8550 3850 8850 3850
+$EndSCHEMATC
